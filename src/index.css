@@ -1,13 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Overpass&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #1a24fb;
+  background-color: #f8f7f3;
+  font-family: "Overpass", sans-serif;
+}
+h3 {
+  text-align: right;
+  margin-right: 5px;
+  margin-bottom: 0;
+  font-size: 24px;
+  margin-top: 0;
+}
+h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 12px;
+  letter-spacing: 0.2em;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.frame {
+  border: 3px solid #1a24fb;
+  padding: 40px;
+  text-align: left;
+}
+.frame__container {
+  width: 350px;
+}
+.content {
+  margin-top: 5rem;
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 100px;
+  column-gap: 20px;
+}
+.nav__container {
+  background-color: #1a24fb;
+  height: 40px;
+}
+.nav__container > div > span {
+  color: white;
+  letter-spacing: 0.1rem;
+  margin-left: 20px;
+}
+.nav__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70%;
+}
+.button__nav {
+}
+.hamburger {
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.nav__container > div {
+}
+.name {
+  font-weight: 600;
+}
+.frame__container > .foot > button {
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  color: #1a24fb;
+  text-align: right;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 200px;
 }
